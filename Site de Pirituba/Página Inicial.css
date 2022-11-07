@@ -1,0 +1,472 @@
+html {
+    height: 1200px;
+    width: 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: league;
+    src: url(League_Spartan/);
+}
+
+#cabeçario {
+    width: 100%;
+    height: 120px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(0, 39, 91);
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+
+.barra-pesquisa {
+    background-color: white;
+    outline: none;
+    border: 10px;
+    padding-left: 75px;
+    padding-right: 60px;
+    width: 650px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: larger;
+    position: fixed;
+    top: 25px;
+    left: 60px;
+    z-index: 2;
+}
+
+.barra-pesquisa:hover {
+    border:rgb(255, 255, 255);
+    border: 10px;
+    transition: 10ms;
+}
+
+#fundo {
+    width: 100%;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 100px; 
+}
+
+#perfil{
+    width: 100px;
+    height: 95px;
+    position: relative;
+    left: 1150px;
+    top: 10px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#desça {
+    background-color: rgb(0, 40, 91);
+    width: 430px;
+    height: 60px;
+    left: 800px;
+    top: 145px;
+    position: absolute;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+#desça:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+#godown {
+    position: absolute;
+    left: 25px;
+    height: 50px;
+    width: 50px;
+    padding-top: 3px;
+}
+
+
+#desçaa {
+    color: white;
+    font-size: x-large;
+    padding-left: 85px;
+    padding-top: 15px;
+    font-family: inter;
+    position: relative;
+    font-weight:bolder;
+}
+
+
+#orga {
+    position: relative;
+    top: -25px;
+}
+
+#Pirituba {
+    top: 200px;
+    left: 90px;
+    position: absolute;
+    font-size: 100px;
+    font-family: inter;
+    color: rgb(6, 84, 182);
+    font-weight: bold;
+
+}
+
+#welcome {
+    top: 180px;
+    left: 95px;
+    position: absolute;
+    font-size: 30px;
+    font-family: inter;
+    color: rgb(0, 37, 82);
+    font-weight: bold;
+
+}
+
+#cityy {
+    top: 310px;
+    left: 95px;
+    position: absolute;
+    font-size: 15px;
+    font-family: inter;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#base {
+    left: 635px;
+    top: 775px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+#campo {
+    width: 1100px;
+    height: 675px;
+    border-radius: 50px;
+    background-color: rgb(0, 46, 103);
+    position: absolute;
+    left: 100px;
+    top: 950px;
+    z-index: 1;
+}
+
+#conheça {
+    text-align: center;
+    margin: auto;
+    top: 50px;
+    right: 225px;
+    position: absolute;
+    font-size: 80px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#blazer {
+    width: 270px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 255);
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    z-index: 0;
+    border: none;
+}
+
+#txt-lazer:hover {
+    font-size: 35px;
+    left: 87px;
+    top: 45px;
+    transition-duration: 0.1s;
+}
+
+#txt-lazer {
+    font-size: 30px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 95px;
+    top: 50px;
+}
+
+
+#balimentação {
+    width: 270px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 255);
+    position: absolute;
+    left: 420px;
+    top: 200px;
+    z-index: 0;
+    border: none;
+}
+
+#txt-alimentação:hover {
+    font-size: 35px;
+    left: 35px;
+    top: 48px;
+    transition-duration: 0.1s;
+}
+
+#txt-alimentação {
+    font-size: 30px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+#btransporte {
+    width: 270px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 255);
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    z-index: 0;
+    border: none;
+}
+
+#txt-transporte:hover {
+    font-size: 35px;
+    left: 45px;
+    top: 48px;
+    transition-duration: 0.1s;
+}
+
+#txt-transporte {
+    font-size: 30px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 55px;
+    top: 50px;
+}
+
+#bmercados {
+    width: 270px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 255);
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    z-index: 0;
+    border: none;
+}
+
+#txt-mercados:hover {
+    font-size: 35px;
+    left: 53px;
+    top: 50px;
+    transition-duration: 0.1s;
+}
+
+#txt-mercados {
+    font-size: 30px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 64px;
+    top: 55px;
+}
+
+#beducação {
+    width: 270px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 255);
+    position: absolute;
+    left: 235px;
+    top: 420px;
+    z-index: 0;
+    border: none;
+}
+#txt-educação:hover {
+    font-size: 35px;
+    left: 53px;
+    top: 50px;
+    transition-duration: 0.1s;
+}
+
+#txt-educação {
+    font-size: 30px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 64px;
+    top: 55px;
+}
+
+#bhistória {
+    width: 270px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 255);
+    position: absolute;
+    left: 575px;
+    top: 420px;
+    z-index: 0;
+    border: none;
+}
+
+#txt-história:hover {
+    font-size: 35px;
+    left: 70px;
+    top: 50px;
+    transition-duration: 0.1s;
+}
+
+#txt-história {
+    font-size: 30px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 80px;
+    top: 55px;
+}
+
+#roda-pe {
+    top: 900px;
+    width: 1305px;
+    height: 540px;
+    position: relative;
+    background-color: rgb(0, 46, 103);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#referências {
+    font-family: inter;
+    font-size: 45px;
+    position: absolute;
+    left: 525px;
+    top: 70px;
+    color: white;
+}
+
+#instagram-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 235px;
+    left: 350px;
+}
+
+#txt-instagram {
+    font-size: 26px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 420px;
+    top: 245px;
+}#txt-instagram:hover {
+    text-decoration: underline;
+}
+
+#tiktok-icon {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 300px;
+    left: 345px;
+}
+
+#txt-tiktok {
+    font-size: 25px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 420px;
+    top: 310px;
+}
+#txt-tiktok:hover {
+    text-decoration: underline;
+}
+
+#face-icon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 375px;
+    left: 350px;
+}
+
+#txt-face {
+    font-size: 22px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 418px;
+    top: 385px;
+}
+#txt-face:hover {
+    text-decoration: underline;
+}
+
+#obj {
+    font-size: 35px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 850px;
+    top: 220px;
+}
+
+#objj {
+    font-size: 25px;
+    text-align: center;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 700px;
+    top: 275px;
+    width: 550px;
+}
+
+#creator {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50px;
+}
+
+#direitos {
+    font-size: 15px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 470px;
+    top: 500px;
+}

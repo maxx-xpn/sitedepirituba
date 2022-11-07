@@ -1,0 +1,311 @@
+body {
+    width: 100%;
+    height: 1000px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: league;
+    src: url(League_Spartan/);
+}
+
+#cabeçario {
+    width: 100%;
+    height: 90px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(0, 39, 91);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+#cobrir {
+    background-color: rgb(0, 39, 91);
+    height: 2px;
+    width: 4px;
+    left: 140px;
+    position: absolute;
+    margin-top: 80px;
+    position: fixed;
+}
+
+#profile-icon{
+    margin-left: 1000px;
+    height: 70px;
+    width: 70px;
+}
+
+#home-icon{
+    height: 75px;
+    width: 75px;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+
+#flazer {
+    color: white;
+    position: absolute;
+    left: 220px;
+    top: 25px;
+    font-size: 30px;
+    font-family: inter;
+    font-weight: 700;
+}
+#flazer:hover {
+    text-decoration: underline;
+}
+
+#falimentação {
+    color: white;
+    position: absolute;
+    left: 345px;
+    top: 25px;
+    font-size: 30px;
+    font-family: inter;
+    font-weight: 700;
+}
+#falimentação:hover {
+    text-decoration: underline;
+}
+
+#fmercados {
+    color: white;
+    position: absolute;
+    left: 560px;
+    top: 25px;
+    font-size: 30px;
+    font-family: inter;
+    font-weight: 700;
+}
+#fmercados:hover {
+    text-decoration: underline;
+}
+
+
+#feducação {
+    color: white;
+    position: absolute;
+    left: 740px;
+    top: 25px;
+    font-size: 30px;
+    font-family: inter;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+#fhistória {
+    color: white;
+    position: absolute;
+    left: 930px;
+    top: 25px;
+    font-size: 30px;
+    font-family: inter;
+    font-weight: 700;
+    z-index: 10;
+}
+#fhistória:hover {
+    text-decoration: underline;
+}
+
+
+#t-julio {
+    font-family: inter;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    left: 110px;
+    top: 190px;
+    color: white;
+    display: inline-block;
+}
+
+#i-julio {
+    border-radius: 25px;
+    width: 550px;
+    height: 350px;
+    margin-top: 135px;
+    margin-left: 700px;
+}
+
+#txt-julio {
+    padding-right: 690px;
+    padding-left: 95px;
+    padding-bottom: 500px;
+    font-family: inter;
+    color: rgb(255, 253, 253);
+    font-size: 18px;
+    position: relative;
+    top: -345px;
+}
+
+#lupe-icon {
+    position: relative;
+    margin-left: 1190px;
+    top: -360px;
+    height: 70px;
+    width: 70px;
+}
+
+#i-emei {
+    position: relative;
+    border-radius: 25px;
+    width: 500px;
+    height: 350px;
+    top: -775px;
+    margin-left: 80px;
+}
+
+#txt-emei {
+    padding-left: 670px;
+    font-family: inter;
+    color: rgb(255, 253, 253);
+    font-size: 17px;
+    position: relative;
+    height: 400px;
+    width: 600px;
+    top: -1035px;
+    position: relative;
+}
+
+#t-emei {
+    font-family: inter;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: -710px;
+    color: white;
+    left: 780px;
+    width: 400px;
+}
+
+#roda-pe {
+    bottom: 900px;
+    width: 100%;
+    height: 540px;
+    position: relative;
+    background-color: rgb(0, 46, 103);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#referências {
+    font-family: inter;
+    font-size: 45px;
+    position: absolute;
+    left: 525px;
+    top: 70px;
+    color: white;
+}
+
+#instagram-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 235px;
+    left: 350px;
+}
+
+#txt-instagram {
+    font-size: 26px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 420px;
+    top: 245px;
+}#txt-instagram:hover {
+    text-decoration: underline;
+}
+
+#tiktok-icon {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 300px;
+    left: 345px;
+}
+
+#txt-tiktok {
+    font-size: 25px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 420px;
+    top: 310px;
+}
+#txt-tiktok:hover {
+    text-decoration: underline;
+}
+
+#face-icon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 375px;
+    left: 350px;
+}
+
+#txt-face {
+    font-size: 22px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 418px;
+    top: 385px;
+}
+#txt-face:hover {
+    text-decoration: underline;
+}
+
+#obj {
+    font-size: 35px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position:absolute;
+    left: 850px;
+    top: 220px;
+}
+
+#objj {
+    font-size: 25px;
+    text-align: center;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 700px;
+    top: 275px;
+    width: 550px;
+}
+
+#creator {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50px;
+}
+
+#direitos {
+    font-size: 15px;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 470px;
+    top: 500px;
+}
